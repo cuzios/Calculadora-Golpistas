@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Inteligente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Componentes</h1>
+        <p>Insira a quantidade de cada componente:</p>
+
+        <!-- Campos de entrada para cada componente -->
+        <label for="fiveSeven">Five Seven:</label>
+        <input type="number" id="fiveSeven" value="0" min="0">
+
+        <label for="m1911">M1911:</label>
+        <input type="number" id="m1911" value="0" min="0">
+
+        <label for="mk2">63 MK2:</label>
+        <input type="number" id="mk2" value="0" min="0">
+
+        <label for="parafal">PARAFAL:</label>
+        <input type="number" id="parafal" value="0" min="0">
+
+        <label for="g3">G3:</label>
+        <input type="number" id="g3" value="0" min="0">
+
+        <label for="mpx">MPX:</label>
+        <input type="number" id="mpx" value="0" min="0">
+
+        <label for="remington">REMINGTON:</label>
+        <input type="number" id="remington" value="0" min="0">
+
+        <label for="uzi">UZI:</label>
+        <input type="number" id="uzi" value="0" min="0">
+
+        <button onclick="calculate()">Calcular</button>
+
+        <h2>Resultados:</h2>
+        <p id="resultTotal"></p>
+        <p id="result100"></p>
+        <p id="result90"></p>
+        <p id="result80"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
